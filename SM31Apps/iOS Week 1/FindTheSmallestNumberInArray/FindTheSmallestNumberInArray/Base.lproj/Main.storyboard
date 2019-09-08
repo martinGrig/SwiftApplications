@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FindTheSmallestNumberInArray" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i23-o5-KXo">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Smallest number is:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YNE-jo-8ne">
+                                        <rect key="frame" x="20" y="732" width="178" height="26"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="brf-ej-OUX">
+                                        <rect key="frame" x="245" y="731" width="14" height="27"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pvU-fe-53W">
+                                        <rect key="frame" x="95" y="629" width="224" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="pc0-i7-pGX"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="Find The Smallest!"/>
+                                        <connections>
+                                            <action selector="findTheSmallestNumInArray" destination="BYZ-38-t0r" eventType="touchUpInside" id="IEE-qA-oKw"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lTf-tW-hKv">
+                                        <rect key="frame" x="146" y="58" width="122" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="Add a number"/>
+                                        <connections>
+                                            <action selector="addANumber" destination="BYZ-38-t0r" eventType="touchUpInside" id="NWK-QL-INP"/>
+                                        </connections>
+                                    </button>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Nza-js-OGQ">
+                                        <rect key="frame" x="177.5" y="20" width="59" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="59" id="sq7-TA-mYj"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numberPad" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                    </textField>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="djt-Cf-IJU">
+                                        <rect key="frame" x="50" y="114" width="314" height="495"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="lTf-tW-hKv" firstAttribute="top" secondItem="Nza-js-OGQ" secondAttribute="bottom" constant="8" symbolic="YES" id="1ts-81-ZwC"/>
+                                    <constraint firstItem="Nza-js-OGQ" firstAttribute="centerX" secondItem="djt-Cf-IJU" secondAttribute="centerX" id="4PH-tr-hIS"/>
+                                    <constraint firstItem="pvU-fe-53W" firstAttribute="top" secondItem="djt-Cf-IJU" secondAttribute="bottom" constant="20" id="6MH-m4-QLb"/>
+                                    <constraint firstItem="Nza-js-OGQ" firstAttribute="top" secondItem="i23-o5-KXo" secondAttribute="top" constant="20" id="6WR-oD-J7Q"/>
+                                    <constraint firstItem="pvU-fe-53W" firstAttribute="centerX" secondItem="djt-Cf-IJU" secondAttribute="centerX" id="AuB-do-QcK"/>
+                                    <constraint firstItem="djt-Cf-IJU" firstAttribute="top" secondItem="lTf-tW-hKv" secondAttribute="bottom" constant="20" id="Gyq-UZ-zIE"/>
+                                    <constraint firstItem="brf-ej-OUX" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="YNE-jo-8ne" secondAttribute="trailing" symbolic="YES" id="HLq-od-7A0"/>
+                                    <constraint firstAttribute="bottom" secondItem="YNE-jo-8ne" secondAttribute="bottom" constant="60" id="Jxu-3E-gs7"/>
+                                    <constraint firstAttribute="bottom" secondItem="brf-ej-OUX" secondAttribute="bottom" constant="60" id="Lat-UQ-4iS"/>
+                                    <constraint firstAttribute="bottom" secondItem="YNE-jo-8ne" secondAttribute="bottom" constant="60" id="LqG-uR-Iml"/>
+                                    <constraint firstItem="YNE-jo-8ne" firstAttribute="leading" secondItem="i23-o5-KXo" secondAttribute="leading" constant="20" id="OFO-fR-8OG"/>
+                                    <constraint firstItem="YNE-jo-8ne" firstAttribute="top" secondItem="pvU-fe-53W" secondAttribute="bottom" constant="43" id="QBP-DT-rJF"/>
+                                    <constraint firstAttribute="trailing" secondItem="djt-Cf-IJU" secondAttribute="trailing" constant="50" id="Zyu-L2-QWy"/>
+                                    <constraint firstItem="pvU-fe-53W" firstAttribute="centerX" secondItem="Nza-js-OGQ" secondAttribute="centerX" id="a7A-SD-zVj"/>
+                                    <constraint firstAttribute="bottom" secondItem="brf-ej-OUX" secondAttribute="bottom" constant="60" id="c03-0h-5OV"/>
+                                    <constraint firstItem="pvU-fe-53W" firstAttribute="top" secondItem="djt-Cf-IJU" secondAttribute="bottom" constant="20" id="cAP-hy-SfU"/>
+                                    <constraint firstItem="djt-Cf-IJU" firstAttribute="leading" secondItem="i23-o5-KXo" secondAttribute="leading" constant="50" id="dD3-2R-ezm"/>
+                                    <constraint firstItem="pvU-fe-53W" firstAttribute="centerX" secondItem="lTf-tW-hKv" secondAttribute="centerX" id="dWb-9y-okf"/>
+                                    <constraint firstItem="djt-Cf-IJU" firstAttribute="centerX" secondItem="i23-o5-KXo" secondAttribute="centerX" id="jc3-MY-1Lr"/>
+                                    <constraint firstAttribute="trailing" secondItem="brf-ej-OUX" secondAttribute="trailing" constant="155" id="jgA-Ox-dhl"/>
+                                    <constraint firstAttribute="trailing" secondItem="pvU-fe-53W" secondAttribute="trailing" constant="95" id="suR-hk-xwO"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="i23-o5-KXo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="7Vz-q0-ZZG"/>
+                            <constraint firstItem="i23-o5-KXo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CVz-Yx-4WE"/>
+                            <constraint firstItem="i23-o5-KXo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="IRy-i4-eVC"/>
+                            <constraint firstItem="i23-o5-KXo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QTa-5T-ciu"/>
+                            <constraint firstItem="i23-o5-KXo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="X3p-IZ-xgD"/>
+                            <constraint firstItem="i23-o5-KXo" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="bDo-Wj-RbP"/>
+                            <constraint firstItem="i23-o5-KXo" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="uQF-od-ZZ5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="i23-o5-KXo" secondAttribute="trailing" id="yvy-L8-G8R"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="answerLabel" destination="brf-ej-OUX" id="wDj-7n-yRs"/>
+                        <outlet property="list" destination="djt-Cf-IJU" id="qnc-A1-dfJ"/>
+                        <outlet property="numberInPut" destination="Nza-js-OGQ" id="hsv-Rd-7pa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
