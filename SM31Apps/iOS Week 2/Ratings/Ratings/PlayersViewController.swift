@@ -31,12 +31,9 @@
 import UIKit
 
 class PlayersViewController: UITableViewController {
-  
-  // MARK: - Properties
   var players = SampleData.generatePlayersData()
 }
 
-// MARK: - UITableViewDataSource
 extension PlayersViewController {
     
     @IBAction func cancelToPlayersViewController(_ segue: UIStoryboardSegue) {

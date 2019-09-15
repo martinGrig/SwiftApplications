@@ -31,13 +31,10 @@
 import UIKit
 
 class PlayerCell: UITableViewCell {
-  
-  // MARK: - IBOutlets
   @IBOutlet weak var gameLabel: UILabel!
   @IBOutlet weak var nameLabel: UILabel!
   @IBOutlet weak var ratingImageView: UIImageView!
   
-  // MARK: - Properties
   var player: Player? {
     didSet {
       guard let player = player else { return }
