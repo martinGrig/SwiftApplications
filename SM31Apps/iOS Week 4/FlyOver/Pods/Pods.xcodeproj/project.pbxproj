@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13B8174C23D7FA813DE094604A647CBD /* FlyoverCamera+RegionChangeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3127505A3B40A67A12F81667C5D49A8C /* FlyoverCamera+RegionChangeAnimation.swift */; };
+		1409AB588A851816EAD2E648983A37F9 /* FlyoverAwesomePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EF6C0D9E11D4C96CDA1B76D087CC83 /* FlyoverAwesomePlace.swift */; };
+		3F03A76E06A0D5CAE07FD6ACEC709402 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CCBCE02A078B27A4E4EBEFBA662217 /* UIKit.framework */; };
+		48A1D5F6ECD4C0EC84931413EFD3F6E8 /* FlyoverKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28253116E4663FEE7A08DEF90703C23E /* FlyoverKit-dummy.m */; };
+		4BCA701D54B629AC55B8CCB62B5E5D36 /* FlyoverCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F2CAC3ADED23F2FB10869ED3DDEB8 /* FlyoverCamera.swift */; };
+		5B7D210054A6C610E2BA52E633727873 /* Flyover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78281C7DDD60401A1CA21712AEEFCD22 /* Flyover.swift */; };
+		5C48C3990A5998B608D281598EA44327 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805A377FEB75EAD29F063A0A07513C3E /* MapKit.framework */; };
+		5EF3C1659DE5814FEACEC174FE042C6E /* FlyoverMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5336320B854040285AA10B8F1ABB9DD8 /* FlyoverMapViewController.swift */; };
+		9291E11016014E25DD4875A836A921A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5FC5B64354078279927964A795D8D1C /* Foundation.framework */; };
+		AE07DBD3BB685BCB3E4737849C404101 /* FlyoverCamera+State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6561B0F708989B7F570DDCA390008089 /* FlyoverCamera+State.swift */; };
+		BDBE6326DD9526E535F0D0A135699E69 /* FlyoverCamera+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9359D5FE2BDE28DE4B2A336156791D38 /* FlyoverCamera+Configuration.swift */; };
+		C3FC584CE7E2DEE5D50DAAA4C89CA024 /* Pods-FlyOver-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D62A5D2B527964A450214730D754E4D3 /* Pods-FlyOver-dummy.m */; };
+		D1B2476069C4F8C3936D38F16FD67245 /* FlyoverKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC129E2EABD6DDE52E7AEE299FC1D2F1 /* FlyoverKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1BFADF97C4A9F753E49CDC0D773148B /* Pods-FlyOver-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10781AD1B87038E6182567CA26F8E280 /* Pods-FlyOver-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4787ABD34DF93C5598BC2027317F9B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5FC5B64354078279927964A795D8D1C /* Foundation.framework */; };
+		E9E1C701625B57EF2D6DABE402BADEBF /* Flyover+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800851231F9624B158A394431F763519 /* Flyover+Operators.swift */; };
+		EA8C656478F98586CB401B4C4FF0861A /* FlyoverMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213C8414C4E85738673B90F3E2F15977 /* FlyoverMapView.swift */; };
+		EC247F830AE1D32708754513CD3C0FA1 /* FlyoverMapView+MapType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED3231BA01BF25EC67A8292555E17CA /* FlyoverMapView+MapType.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5167B3937E76AD5BBB1C988D97172D8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7785D9AF9CB89AC42FC7194B9D39325;
+			remoteInfo = FlyoverKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10781AD1B87038E6182567CA26F8E280 /* Pods-FlyOver-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlyOver-umbrella.h"; sourceTree = "<group>"; };
+		1ED3231BA01BF25EC67A8292555E17CA /* FlyoverMapView+MapType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FlyoverMapView+MapType.swift"; path = "Sources/MapView/FlyoverMapView+MapType.swift"; sourceTree = "<group>"; };
+		213C8414C4E85738673B90F3E2F15977 /* FlyoverMapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlyoverMapView.swift; path = Sources/MapView/FlyoverMapView.swift; sourceTree = "<group>"; };
+		26B3F55E57F969EA52A24147A99FE91C /* FlyoverKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlyoverKit-prefix.pch"; sourceTree = "<group>"; };
+		28253116E4663FEE7A08DEF90703C23E /* FlyoverKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlyoverKit-dummy.m"; sourceTree = "<group>"; };
+		3127505A3B40A67A12F81667C5D49A8C /* FlyoverCamera+RegionChangeAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FlyoverCamera+RegionChangeAnimation.swift"; path = "Sources/Camera/FlyoverCamera+RegionChangeAnimation.swift"; sourceTree = "<group>"; };
+		3876B6CD06C8DBB1F8F260DB74B83100 /* Pods-FlyOver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlyOver.modulemap"; sourceTree = "<group>"; };
+		3BB4C09D537F1497F6E1E7F07CF22AD7 /* Pods-FlyOver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlyOver.release.xcconfig"; sourceTree = "<group>"; };
+		4D6510F901BFA0FEF9AA67ACE1548958 /* Pods-FlyOver-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlyOver-frameworks.sh"; sourceTree = "<group>"; };
+		5336320B854040285AA10B8F1ABB9DD8 /* FlyoverMapViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlyoverMapViewController.swift; path = Sources/MapView/FlyoverMapViewController.swift; sourceTree = "<group>"; };
+		6561B0F708989B7F570DDCA390008089 /* FlyoverCamera+State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FlyoverCamera+State.swift"; path = "Sources/Camera/FlyoverCamera+State.swift"; sourceTree = "<group>"; };
+		68CD2F1EB4D9BB38BEE0B567F3DBFC40 /* FlyoverKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlyoverKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C9D36D7EA6662A71078683A786A290F /* Pods-FlyOver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlyOver.debug.xcconfig"; sourceTree = "<group>"; };
+		78281C7DDD60401A1CA21712AEEFCD22 /* Flyover.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Flyover.swift; path = Sources/Flyover.swift; sourceTree = "<group>"; };
+		800851231F9624B158A394431F763519 /* Flyover+Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Flyover+Operators.swift"; path = "Sources/Flyover+Operators.swift"; sourceTree = "<group>"; };
+		805A377FEB75EAD29F063A0A07513C3E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		864F2CAC3ADED23F2FB10869ED3DDEB8 /* FlyoverCamera.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlyoverCamera.swift; path = Sources/Camera/FlyoverCamera.swift; sourceTree = "<group>"; };
+		8DFCDADE742791CA88FE9FFB9DAD3C71 /* Pods_FlyOver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlyOver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92EF6C0D9E11D4C96CDA1B76D087CC83 /* FlyoverAwesomePlace.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlyoverAwesomePlace.swift; path = Sources/AwesomePlace/FlyoverAwesomePlace.swift; sourceTree = "<group>"; };
+		9359D5FE2BDE28DE4B2A336156791D38 /* FlyoverCamera+Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FlyoverCamera+Configuration.swift"; path = "Sources/Camera/FlyoverCamera+Configuration.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A224C5BF4437B0F42424C858B9F772E2 /* Pods-FlyOver-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlyOver-acknowledgements.plist"; sourceTree = "<group>"; };
+		B0CCBCE02A078B27A4E4EBEFBA662217 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B5FC5B64354078279927964A795D8D1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B97707964DE55416757A4D8FD8F56799 /* Pods-FlyOver-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlyOver-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BF1DB3BD9C706E33F318A100EA0ED413 /* FlyoverKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlyoverKit.modulemap; sourceTree = "<group>"; };
+		C7342F41BD59ECA63CEDF1E977EE0FED /* FlyoverKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlyoverKit.xcconfig; sourceTree = "<group>"; };
+		CC129E2EABD6DDE52E7AEE299FC1D2F1 /* FlyoverKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlyoverKit-umbrella.h"; sourceTree = "<group>"; };
+		D62A5D2B527964A450214730D754E4D3 /* Pods-FlyOver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlyOver-dummy.m"; sourceTree = "<group>"; };
+		ED536BADCF6A0F284443792E8B90481F /* FlyoverKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FlyoverKit-Info.plist"; sourceTree = "<group>"; };
+		ED5A34680E5D9D811B6B25C8A299244A /* Pods-FlyOver-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlyOver-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B06B339D841F1505AE43366B97B190F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4787ABD34DF93C5598BC2027317F9B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE59C9D057B72C938276318A6211C14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9291E11016014E25DD4875A836A921A2 /* Foundation.framework in Frameworks */,
+				5C48C3990A5998B608D281598EA44327 /* MapKit.framework in Frameworks */,
+				3F03A76E06A0D5CAE07FD6ACEC709402 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47C35B7037A2EAAAB00727B6ADB6E35E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A3205CA37605BBC7CB56677F3659C29 /* Pods-FlyOver */ = {
+			isa = PBXGroup;
+			children = (
+				3876B6CD06C8DBB1F8F260DB74B83100 /* Pods-FlyOver.modulemap */,
+				B97707964DE55416757A4D8FD8F56799 /* Pods-FlyOver-acknowledgements.markdown */,
+				A224C5BF4437B0F42424C858B9F772E2 /* Pods-FlyOver-acknowledgements.plist */,
+				D62A5D2B527964A450214730D754E4D3 /* Pods-FlyOver-dummy.m */,
+				4D6510F901BFA0FEF9AA67ACE1548958 /* Pods-FlyOver-frameworks.sh */,
+				ED5A34680E5D9D811B6B25C8A299244A /* Pods-FlyOver-Info.plist */,
+				10781AD1B87038E6182567CA26F8E280 /* Pods-FlyOver-umbrella.h */,
+				6C9D36D7EA6662A71078683A786A290F /* Pods-FlyOver.debug.xcconfig */,
+				3BB4C09D537F1497F6E1E7F07CF22AD7 /* Pods-FlyOver.release.xcconfig */,
+			);
+			name = "Pods-FlyOver";
+			path = "Target Support Files/Pods-FlyOver";
+			sourceTree = "<group>";
+		};
+		2E952FD86E5FA23F72DC01E668F4C79A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A3205CA37605BBC7CB56677F3659C29 /* Pods-FlyOver */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		355529979D60ED21BAEB9DF56D6A9DB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68CD2F1EB4D9BB38BEE0B567F3DBFC40 /* FlyoverKit.framework */,
+				8DFCDADE742791CA88FE9FFB9DAD3C71 /* Pods_FlyOver.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47C35B7037A2EAAAB00727B6ADB6E35E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B5FC5B64354078279927964A795D8D1C /* Foundation.framework */,
+				805A377FEB75EAD29F063A0A07513C3E /* MapKit.framework */,
+				B0CCBCE02A078B27A4E4EBEFBA662217 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4CA00C5DDED250663ABE85190069A8DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6EF0666A977BB93A125DE5417746DC6 /* FlyoverKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				4CA00C5DDED250663ABE85190069A8DA /* Pods */,
+				355529979D60ED21BAEB9DF56D6A9DB4 /* Products */,
+				2E952FD86E5FA23F72DC01E668F4C79A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D6EF0666A977BB93A125DE5417746DC6 /* FlyoverKit */ = {
+			isa = PBXGroup;
+			children = (
+				78281C7DDD60401A1CA21712AEEFCD22 /* Flyover.swift */,
+				800851231F9624B158A394431F763519 /* Flyover+Operators.swift */,
+				92EF6C0D9E11D4C96CDA1B76D087CC83 /* FlyoverAwesomePlace.swift */,
+				864F2CAC3ADED23F2FB10869ED3DDEB8 /* FlyoverCamera.swift */,
+				9359D5FE2BDE28DE4B2A336156791D38 /* FlyoverCamera+Configuration.swift */,
+				3127505A3B40A67A12F81667C5D49A8C /* FlyoverCamera+RegionChangeAnimation.swift */,
+				6561B0F708989B7F570DDCA390008089 /* FlyoverCamera+State.swift */,
+				213C8414C4E85738673B90F3E2F15977 /* FlyoverMapView.swift */,
+				1ED3231BA01BF25EC67A8292555E17CA /* FlyoverMapView+MapType.swift */,
+				5336320B854040285AA10B8F1ABB9DD8 /* FlyoverMapViewController.swift */,
+				E58CD569997216FE91065C9CB51E3ECA /* Support Files */,
+			);
+			path = FlyoverKit;
+			sourceTree = "<group>";
+		};
+		E58CD569997216FE91065C9CB51E3ECA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF1DB3BD9C706E33F318A100EA0ED413 /* FlyoverKit.modulemap */,
+				C7342F41BD59ECA63CEDF1E977EE0FED /* FlyoverKit.xcconfig */,
+				28253116E4663FEE7A08DEF90703C23E /* FlyoverKit-dummy.m */,
+				ED536BADCF6A0F284443792E8B90481F /* FlyoverKit-Info.plist */,
+				26B3F55E57F969EA52A24147A99FE91C /* FlyoverKit-prefix.pch */,
+				CC129E2EABD6DDE52E7AEE299FC1D2F1 /* FlyoverKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FlyoverKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B3ECA92456792DCE236EBF1227797DCF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1B2476069C4F8C3936D38F16FD67245 /* FlyoverKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5A796127A8AEFEF1DEF22E0523D478A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1BFADF97C4A9F753E49CDC0D773148B /* Pods-FlyOver-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9990BAA6B33C9D2C12C614C25517603D /* Pods-FlyOver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0957046FE7009B2396BE671C13B32957 /* Build configuration list for PBXNativeTarget "Pods-FlyOver" */;
+			buildPhases = (
+				E5A796127A8AEFEF1DEF22E0523D478A /* Headers */,
+				11B736A9547000BC6B4329E793FB66F0 /* Sources */,
+				8B06B339D841F1505AE43366B97B190F /* Frameworks */,
+				ADB8F8C77E558541509371C52D4FAF29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83E3E897F2715CF3C29FD5BE9F519627 /* PBXTargetDependency */,
+			);
+			name = "Pods-FlyOver";
+			productName = "Pods-FlyOver";
+			productReference = 8DFCDADE742791CA88FE9FFB9DAD3C71 /* Pods_FlyOver.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7785D9AF9CB89AC42FC7194B9D39325 /* FlyoverKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 031E55C973033A100DC6D90522FEE217 /* Build configuration list for PBXNativeTarget "FlyoverKit" */;
+			buildPhases = (
+				B3ECA92456792DCE236EBF1227797DCF /* Headers */,
+				35ED7570D776658B06C51463E5B298D1 /* Sources */,
+				DBE59C9D057B72C938276318A6211C14 /* Frameworks */,
+				21D464378A8E1E1DCFC3F38242C797DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyoverKit;
+			productName = FlyoverKit;
+			productReference = 68CD2F1EB4D9BB38BEE0B567F3DBFC40 /* FlyoverKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 355529979D60ED21BAEB9DF56D6A9DB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7785D9AF9CB89AC42FC7194B9D39325 /* FlyoverKit */,
+				9990BAA6B33C9D2C12C614C25517603D /* Pods-FlyOver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21D464378A8E1E1DCFC3F38242C797DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB8F8C77E558541509371C52D4FAF29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11B736A9547000BC6B4329E793FB66F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FC584CE7E2DEE5D50DAAA4C89CA024 /* Pods-FlyOver-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35ED7570D776658B06C51463E5B298D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E1C701625B57EF2D6DABE402BADEBF /* Flyover+Operators.swift in Sources */,
+				5B7D210054A6C610E2BA52E633727873 /* Flyover.swift in Sources */,
+				1409AB588A851816EAD2E648983A37F9 /* FlyoverAwesomePlace.swift in Sources */,
+				BDBE6326DD9526E535F0D0A135699E69 /* FlyoverCamera+Configuration.swift in Sources */,
+				13B8174C23D7FA813DE094604A647CBD /* FlyoverCamera+RegionChangeAnimation.swift in Sources */,
+				AE07DBD3BB685BCB3E4737849C404101 /* FlyoverCamera+State.swift in Sources */,
+				4BCA701D54B629AC55B8CCB62B5E5D36 /* FlyoverCamera.swift in Sources */,
+				48A1D5F6ECD4C0EC84931413EFD3F6E8 /* FlyoverKit-dummy.m in Sources */,
+				EC247F830AE1D32708754513CD3C0FA1 /* FlyoverMapView+MapType.swift in Sources */,
+				EA8C656478F98586CB401B4C4FF0861A /* FlyoverMapView.swift in Sources */,
+				5EF3C1659DE5814FEACEC174FE042C6E /* FlyoverMapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83E3E897F2715CF3C29FD5BE9F519627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlyoverKit;
+			target = B7785D9AF9CB89AC42FC7194B9D39325 /* FlyoverKit */;
+			targetProxy = 5167B3937E76AD5BBB1C988D97172D8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04DC04DC512BADE845A057CEE1938EB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7342F41BD59ECA63CEDF1E977EE0FED /* FlyoverKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlyoverKit/FlyoverKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlyoverKit/FlyoverKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FlyoverKit/FlyoverKit.modulemap";
+				PRODUCT_MODULE_NAME = FlyoverKit;
+				PRODUCT_NAME = FlyoverKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		493189177FD095E8F1CC0EC9207AC862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		866C75E3ABC753B77910468C547725BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BB4C09D537F1497F6E1E7F07CF22AD7 /* Pods-FlyOver.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlyOver/Pods-FlyOver-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlyOver/Pods-FlyOver.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C81EA092D14AE1D1D944AE64377DAA4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CB9C17E183371A9F116EE6BECFA1DC0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7342F41BD59ECA63CEDF1E977EE0FED /* FlyoverKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlyoverKit/FlyoverKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlyoverKit/FlyoverKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FlyoverKit/FlyoverKit.modulemap";
+				PRODUCT_MODULE_NAME = FlyoverKit;
+				PRODUCT_NAME = FlyoverKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D8447053AA0183E1F29D1520EB0A77F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C9D36D7EA6662A71078683A786A290F /* Pods-FlyOver.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlyOver/Pods-FlyOver-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlyOver/Pods-FlyOver.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		031E55C973033A100DC6D90522FEE217 /* Build configuration list for PBXNativeTarget "FlyoverKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9C17E183371A9F116EE6BECFA1DC0C /* Debug */,
+				04DC04DC512BADE845A057CEE1938EB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0957046FE7009B2396BE671C13B32957 /* Build configuration list for PBXNativeTarget "Pods-FlyOver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8447053AA0183E1F29D1520EB0A77F7 /* Debug */,
+				866C75E3ABC753B77910468C547725BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				493189177FD095E8F1CC0EC9207AC862 /* Debug */,
+				C81EA092D14AE1D1D944AE64377DAA4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
