@@ -1,0 +1,6 @@
+framework module Pods_Averi {
+  umbrella header "Pods-Averi-umbrella.h"
+
+  export *
+  module * { export * }
+}
